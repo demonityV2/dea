@@ -6,7 +6,7 @@ if not isfile("Surge.gg") then
     makefolder("Surge.gg")
  end
  
- local menu = game:GetObjects("rbxassetid://104760725630965")[1] 
+ local menu = game:GetObjects("rbxassetid://81664864240639")[1] 
  local tabholder = menu.BG.TabList;
  local tabviewer = menu.BG.Tabs;
  for _, obj in pairs(menu:GetDescendants()) do
@@ -543,7 +543,7 @@ end
                         local UIListLayout = Instance.new("UIListLayout")
                         local UIPadding = Instance.new("UIPadding")
 
-                        newTab[pos.."N"].Text = "    "..groupname
+                        newTab[pos.."N"].Text = "  "..groupname
                         newTab[pos.."N"].Visible = true
 
                         groupCount = 1
