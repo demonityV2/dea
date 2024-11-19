@@ -6,7 +6,7 @@ if not isfile("Surge.gg") then
     makefolder("Surge.gg")
  end
  
- local menu = game:GetObjects("rbxassetid://81664864240639")[1] 
+ local menu = game:GetObjects("rbxassetid://88531613312869")[1] 
  local tabholder = menu.BG.TabList;
  local tabviewer = menu.BG.Tabs;
  for _, obj in pairs(menu:GetDescendants()) do
